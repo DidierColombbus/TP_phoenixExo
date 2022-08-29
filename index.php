@@ -20,6 +20,43 @@ $req_all_voyage = executeRequete("SELECT * FROM voyage");
 </head>
 <body>
 
+<!-- Une nav -->
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Nom de l'agence et logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Voyages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Payer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nous contacter</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Liens et informations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Qui sommes-nous</a></li>
+            <li><a class="dropdown-item" href="#">Ministère du Tourisme</a></li>
+            <li><a class="dropdown-item" href="#">Nos partenaires</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <!-- Bootstrap 5.2 -->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
