@@ -33,7 +33,7 @@ CREATE TABLE `reservation` (
   `id_reservation` int(3) NOT NULL,
   `id_voyage` int(3) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `semaine` int(4) NOT NULL,
+  `semaines` int(4) NOT NULL,
   `participants` int(4) NOT NULL,
   `date_reservation` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
